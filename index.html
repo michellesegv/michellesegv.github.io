@@ -12,22 +12,10 @@
   <link rel="shortcut icon" href="img/escudo.png">
 
   <!-- NOTIFICACIONES -->
-  <link rel="manifest" href="/manifest.json" />
+  <!-- <link rel="manifest" href="/manifest.json" /> -->
   <!-- <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script> -->
-  <script type="text/javascript">
-    (function(p,u,s,h){
-        p._pcq=p._pcq||[];
-        p._pcq.push(['_currentTime',Date.now()]);
-        s=u.createElement('script');
-        s.type='text/javascript';
-        s.async=true;
-        s.src='https://cdn.pushcrew.com/js/df0cca6a09a11e1c4b548e156dfde6cf.js';
-        h=u.getElementsByTagName('script')[0];
-        h.parentNode.insertBefore(s,h);
-    })(window,document);
-  </script>
-  </script>
-  
+  <!-- </script> -->
+
   <!--ENLAZANDO CSS-->
   <link href="https://fonts.googleapis.com/css?family=Inconsolata|Lobster|Lobster+Two|Pontano+Sans" rel="stylesheet">
   <link rel="stylesheet" href="css/style.min.css">
@@ -354,6 +342,18 @@
   <!--ENLAZANDO JS-->
   <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   <script type="text/javascript" src="js/main.min.js"></script>
+  <script type="text/javascript">
+    (function (p, u, s, h) {
+      p._pcq = p._pcq || [];
+      p._pcq.push(['_currentTime', Date.now()]);
+      s = u.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = 'https://cdn.pushcrew.com/js/df0cca6a09a11e1c4b548e156dfde6cf.js';
+      h = u.getElementsByTagName('script')[0];
+      h.parentNode.insertBefore(s, h);
+    })(window, document);
+  </script>
 </body>
 
 </html>
